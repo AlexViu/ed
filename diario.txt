@@ -1,0 +1,8 @@
+20190916 al
+
+Creado usuario en github (AlexViu)
+Creado repositorio: ed con README.md .gitignore (plantilla de Java)
+
+Clonar en local:
+git clone https://github.com/AlexViu/ed.git
+
