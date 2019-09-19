@@ -1,8 +1,22 @@
-20190916 al
+20190916 av
 
 Creado usuario en github (AlexViu)
 Creado repositorio: ed con README.md .gitignore (plantilla de Java)
 
 Clonar en local:
 git clone https://github.com/AlexViu/ed.git
+
+20190919 av
+
+git config --global user.name AlexViu
+git config --global user.email viu.alex771@gmail.com
+git config --global push.default simple
+
+git add diario.txt
+git commit -m "diario.txt con introduccion a github y git"
+git push
+
+git log
+git status
+git diff
 
