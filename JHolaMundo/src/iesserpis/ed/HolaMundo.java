@@ -1,10 +1,14 @@
 package iesserpis.ed;
 
+import java.util.Scanner;
+
 public class HolaMundo {
 
 	public static void main(String[] args) {
-		System.out.println("Hola Mundo desde Eclipse");
-
+		Scanner prueba = new Scanner(System.in);
+	    System.out.println("Ingresa tu nombre");
+	    String nombre = prueba.nextLine();
+	    System.out.println("Tu nombre es: " + nombre);
 	}
 
 }
