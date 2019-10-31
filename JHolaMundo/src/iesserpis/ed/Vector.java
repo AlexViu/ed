@@ -17,7 +17,7 @@ public class Vector {
 		
 	}
 
-	private static int indexOf(int[] v, int x) {
+	static int indexOf(int[] v, int x) {
 		int index = 0;
 		while (index < 5 && v[index]!=x) {
 			index ++;
