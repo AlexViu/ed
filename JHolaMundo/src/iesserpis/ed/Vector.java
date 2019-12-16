@@ -1,29 +1,27 @@
 package iesserpis.ed;
 
+import java.util.Arrays;
+
 public class Vector {
 
 	public static void main(String[] args) {
-		
-		int[] v = new int[] {17, 12, 15, 9, 14};
-		int x = 9;
-		int index = indexOf(v , x);
-		System.out.println("index=" + index);
-		System.out.println("fin");
-		
-		//for (i=0; i <=4; i++) {
-		//System.out.println(v[i]);
-		//}
-		//System.out.println("fin");
-		
+
 	}
 
-	static int indexOf(int[] v, int x) {
-		int index = 0;
-		while (index < 5 && v[index]!=x) {
-			index ++;
+	public static int max(int[] v) {
+		int max = v[0];
+		for (int index = 1; index < v.length; index++) {
+
+			if (v[index] > max) {
+				max = v[index];
+			}
 		}
-		if (index == 5)
-			return -1;
-			return index;
+		return max;
 	}
+
+	public static int[] selectionSort(int[] v1) {
+		Arrays.sort(v1);
+		return v1;
+	}
+
 }
