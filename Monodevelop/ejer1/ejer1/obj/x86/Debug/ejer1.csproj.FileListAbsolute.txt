@@ -1,0 +1,10 @@
+/home/aledom/Projects/ejer1/ejer1/bin/Debug/ejer1.exe
+/home/aledom/Projects/ejer1/ejer1/bin/Debug/ejer1.pdb
+/home/aledom/Projects/ejer1/ejer1/obj/x86/Debug/ejer1.csprojAssemblyReference.cache
+/home/aledom/Projects/ejer1/ejer1/obj/x86/Debug/ejer1.exe
+/home/aledom/Projects/ejer1/ejer1/obj/x86/Debug/ejer1.pdb
+/home/aledom/ed/Monodevelop/ejer1/ejer1/bin/Debug/ejer1.exe
+/home/aledom/ed/Monodevelop/ejer1/ejer1/bin/Debug/ejer1.pdb
+/home/aledom/ed/Monodevelop/ejer1/ejer1/obj/x86/Debug/ejer1.csprojAssemblyReference.cache
+/home/aledom/ed/Monodevelop/ejer1/ejer1/obj/x86/Debug/ejer1.exe
+/home/aledom/ed/Monodevelop/ejer1/ejer1/obj/x86/Debug/ejer1.pdb

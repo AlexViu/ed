@@ -1,0 +1,5 @@
+/home/aledom/Projects/hola/hola/bin/Debug/hola.exe
+/home/aledom/Projects/hola/hola/bin/Debug/hola.pdb
+/home/aledom/Projects/hola/hola/obj/x86/Debug/hola.csprojAssemblyReference.cache
+/home/aledom/Projects/hola/hola/obj/x86/Debug/hola.exe
+/home/aledom/Projects/hola/hola/obj/x86/Debug/hola.pdb

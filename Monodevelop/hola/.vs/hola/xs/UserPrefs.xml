@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{881DAB55-CBA2-4416-804E-12AC913A6157}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="hola/ejer1.cs">
+    <Files>
+      <File FileName="hola/Program.cs" Line="15" Column="13" />
+      <File FileName="hola/ejer1.cs" Line="11" Column="61" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="hola" expanded="True">
+            <Node name="hola" expanded="True">
+              <Node name="ejer1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.hola PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
