@@ -1,0 +1,5 @@
+/home/aledom/ed/Monodevelop/PruebaBotones/prueba/botones/botones/bin/Debug/botones.exe
+/home/aledom/ed/Monodevelop/PruebaBotones/prueba/botones/botones/bin/Debug/botones.pdb
+/home/aledom/ed/Monodevelop/PruebaBotones/prueba/botones/botones/obj/x86/Debug/botones.csprojAssemblyReference.cache
+/home/aledom/ed/Monodevelop/PruebaBotones/prueba/botones/botones/obj/x86/Debug/botones.exe
+/home/aledom/ed/Monodevelop/PruebaBotones/prueba/botones/botones/obj/x86/Debug/botones.pdb
