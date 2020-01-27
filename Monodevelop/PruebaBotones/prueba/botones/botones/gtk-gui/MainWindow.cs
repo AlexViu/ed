@@ -11,7 +11,7 @@ public partial class MainWindow
 
 	private global::Gtk.HBox hbox2;
 
-	private global::Gtk.Entry entry2;
+	private global::Gtk.Entry text;
 
 	private global::Gtk.Button BSaludar;
 
@@ -19,9 +19,9 @@ public partial class MainWindow
 
 	private global::Gtk.Entry entry3;
 
-	private global::Gtk.Button button2;
+	private global::Gtk.Button aleatorio;
 
-	private global::Gtk.Button button3;
+	private global::Gtk.Button salir;
 
 	protected virtual void Build()
 	{
@@ -54,13 +54,13 @@ public partial class MainWindow
 		this.hbox2.Name = "hbox2";
 		this.hbox2.Spacing = 6;
 		// Container child hbox2.Gtk.Box+BoxChild
-		this.entry2 = new global::Gtk.Entry();
-		this.entry2.CanFocus = true;
-		this.entry2.Name = "entry2";
-		this.entry2.IsEditable = true;
-		this.entry2.InvisibleChar = '•';
-		this.hbox2.Add(this.entry2);
-		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.entry2]));
+		this.text = new global::Gtk.Entry();
+		this.text.CanFocus = true;
+		this.text.Name = "text";
+		this.text.IsEditable = true;
+		this.text.InvisibleChar = '•';
+		this.hbox2.Add(this.text);
+		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.text]));
 		w2.Position = 0;
 		// Container child hbox2.Gtk.Box+BoxChild
 		this.BSaludar = new global::Gtk.Button();
@@ -89,30 +89,30 @@ public partial class MainWindow
 		this.entry3 = new global::Gtk.Entry();
 		this.entry3.CanFocus = true;
 		this.entry3.Name = "entry3";
-		this.entry3.IsEditable = true;
+		this.entry3.IsEditable = false;
 		this.entry3.InvisibleChar = '•';
 		this.hbox3.Add(this.entry3);
 		global::Gtk.Box.BoxChild w6 = ((global::Gtk.Box.BoxChild)(this.hbox3[this.entry3]));
 		w6.Position = 0;
 		// Container child hbox3.Gtk.Box+BoxChild
-		this.button2 = new global::Gtk.Button();
-		this.button2.CanFocus = true;
-		this.button2.Name = "button2";
-		this.button2.UseUnderline = true;
-		this.button2.Label = global::Mono.Unix.Catalog.GetString("GtkButton");
-		this.hbox3.Add(this.button2);
-		global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(this.hbox3[this.button2]));
+		this.aleatorio = new global::Gtk.Button();
+		this.aleatorio.CanFocus = true;
+		this.aleatorio.Name = "aleatorio";
+		this.aleatorio.UseUnderline = true;
+		this.aleatorio.Label = global::Mono.Unix.Catalog.GetString("Aleatorio");
+		this.hbox3.Add(this.aleatorio);
+		global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(this.hbox3[this.aleatorio]));
 		w7.Position = 1;
 		w7.Expand = false;
 		w7.Fill = false;
 		// Container child hbox3.Gtk.Box+BoxChild
-		this.button3 = new global::Gtk.Button();
-		this.button3.CanFocus = true;
-		this.button3.Name = "button3";
-		this.button3.UseUnderline = true;
-		this.button3.Label = global::Mono.Unix.Catalog.GetString("GtkButton");
-		this.hbox3.Add(this.button3);
-		global::Gtk.Box.BoxChild w8 = ((global::Gtk.Box.BoxChild)(this.hbox3[this.button3]));
+		this.salir = new global::Gtk.Button();
+		this.salir.CanFocus = true;
+		this.salir.Name = "salir";
+		this.salir.UseUnderline = true;
+		this.salir.Label = global::Mono.Unix.Catalog.GetString("Salir");
+		this.hbox3.Add(this.salir);
+		global::Gtk.Box.BoxChild w8 = ((global::Gtk.Box.BoxChild)(this.hbox3[this.salir]));
 		w8.Position = 2;
 		w8.Expand = false;
 		w8.Fill = false;
@@ -131,5 +131,7 @@ public partial class MainWindow
 		this.Show();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
 		this.BSaludar.Clicked += new global::System.EventHandler(this.OnBSaludarClicked);
+		this.aleatorio.Clicked += new global::System.EventHandler(this.OnAleatorioClicked);
+		this.salir.Clicked += new global::System.EventHandler(this.OnSalirClicked);
 	}
 }
