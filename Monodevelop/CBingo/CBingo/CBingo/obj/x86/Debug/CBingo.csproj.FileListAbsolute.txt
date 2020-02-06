@@ -1,0 +1,5 @@
+/home/aledom/ed/Monodevelop/CBingo/CBingo/CBingo/obj/x86/Debug/CBingo.csprojAssemblyReference.cache
+/home/aledom/ed/Monodevelop/CBingo/CBingo/CBingo/bin/Debug/CBingo.exe
+/home/aledom/ed/Monodevelop/CBingo/CBingo/CBingo/bin/Debug/CBingo.pdb
+/home/aledom/ed/Monodevelop/CBingo/CBingo/CBingo/obj/x86/Debug/CBingo.exe
+/home/aledom/ed/Monodevelop/CBingo/CBingo/CBingo/obj/x86/Debug/CBingo.pdb
