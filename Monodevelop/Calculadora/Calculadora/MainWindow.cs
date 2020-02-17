@@ -1,5 +1,6 @@
 ﻿using System;
 using Gtk;
+using Calculadora;
 
 public partial class MainWindow : Gtk.Window
 {
@@ -130,6 +131,7 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnIgualClicked(object sender, EventArgs e)
     {
+
     }
 
     protected void OnSumarClicked(object sender, EventArgs e)
