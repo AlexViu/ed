@@ -13,7 +13,7 @@ public class CCalculadora {
         return num1 - num2;
 
     }
-    public float multiplpicacion(float num1, float num2)
+    public float multiplicacion(float num1, float num2)
     {
         return num1 * num2;
 

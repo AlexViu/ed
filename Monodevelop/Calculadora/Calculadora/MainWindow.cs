@@ -4,7 +4,14 @@ using Calculadora;
 
 public partial class MainWindow : Gtk.Window
 {
+
+    CCalculadora calc = new CCalculadora(); 
     int contador;
+    int contadorres;
+    double num1;
+    double num2;
+    double resultado;
+    int op;
 
     public MainWindow() : base(Gtk.WindowType.Toplevel)
     {
@@ -71,6 +78,7 @@ public partial class MainWindow : Gtk.Window
         String display = pantalla.Text.ToString();
         pantalla.DeleteText(0, pantalla.Text.Length);
         pantalla.InsertText(display + "7");
+
     }
 
     protected void OnBoton8Clicked(object sender, EventArgs e)
@@ -78,6 +86,7 @@ public partial class MainWindow : Gtk.Window
         String display = pantalla.Text.ToString();
         pantalla.DeleteText(0, pantalla.Text.Length);
         pantalla.InsertText(display + "8");
+
     }
 
     protected void OnBoton9Clicked(object sender, EventArgs e)
@@ -105,17 +114,26 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnDividirClicked(object sender, EventArgs e)
     {
-
+        num1 = Convert.ToDouble(pantalla.Text);
+        pantalla.DeleteText(0, pantalla.Text.Length);
+        op = 4;
+        contador = 0;
     }
 
     protected void OnMultiplicarClicked(object sender, EventArgs e)
     {
-
+        num1 = Convert.ToDouble(pantalla.Text);
+        pantalla.DeleteText(0, pantalla.Text.Length);
+        op = 3;
+        contador = 0;
     }
 
     protected void OnRestarClicked(object sender, EventArgs e)
     {
-
+        num1 = Convert.ToDouble(pantalla.Text);
+        pantalla.DeleteText(0, pantalla.Text.Length);
+        op = 2;
+        contador = 0;
     }
 
     protected void OnComaClicked(object sender, EventArgs e)
@@ -132,10 +150,34 @@ public partial class MainWindow : Gtk.Window
     protected void OnIgualClicked(object sender, EventArgs e)
     {
 
+        num2 = Convert.ToDouble(pantalla.Text);
+
+        switch (op) {
+            case 1:
+                resultado = calc.suma((float)num1, (float)num2);
+                this.pantalla.Text = (Convert.ToString(resultado));
+                break;
+            case 2:
+                resultado = calc.resta((float)num1, (float)num2);
+                this.pantalla.Text = (Convert.ToString(resultado));
+                break;
+            case 3:
+                resultado = calc.multiplicacion((float)num1, (float)num2);
+                this.pantalla.Text = (Convert.ToString(resultado));
+                break;
+            case 4:
+                resultado = calc.division((float)num1, (float)num2);
+                this.pantalla.Text = (Convert.ToString(resultado));
+                break;
+        }
+
     }
 
     protected void OnSumarClicked(object sender, EventArgs e)
-    {
-
-    }
+        { 
+        num1 = Convert.ToDouble(pantalla.Text);
+        pantalla.DeleteText(0, pantalla.Text.Length);
+        op = 1;
+        contador = 0;
+        }
 }
