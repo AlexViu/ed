@@ -26,6 +26,11 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBotonClicked(object sender, EventArgs e)
     {
+        if (contadorres > 0)
+        {
+            pantalla.DeleteText(0, pantalla.Text.Length);
+            contadorres = 0;
+        }
         String display = pantalla.Text.ToString();
         pantalla.DeleteText(0, pantalla.Text.Length);
         pantalla.InsertText(display + "0");
@@ -33,6 +38,11 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBoton1Clicked(object sender, EventArgs e)
     {
+        if (contadorres > 0)
+        {
+            pantalla.DeleteText(0, pantalla.Text.Length);
+            contadorres = 0;
+        }
         String display = pantalla.Text.ToString();
         pantalla.DeleteText(0, pantalla.Text.Length);
         pantalla.InsertText(display + "1");
@@ -40,6 +50,11 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBoton2Clicked(object sender, EventArgs e)
     {
+        if (contadorres > 0)
+        {
+            pantalla.DeleteText(0, pantalla.Text.Length);
+            contadorres = 0;
+        }
         String display = pantalla.Text.ToString();
         pantalla.DeleteText(0, pantalla.Text.Length);
         pantalla.InsertText(display + "2");
@@ -47,6 +62,11 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBoton3Clicked(object sender, EventArgs e)
     {
+        if (contadorres > 0)
+        {
+            pantalla.DeleteText(0, pantalla.Text.Length);
+            contadorres = 0;
+        }
         String display = pantalla.Text.ToString();
         pantalla.DeleteText(0, pantalla.Text.Length);
         pantalla.InsertText(display + "3");
@@ -54,6 +74,11 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBoton4Clicked(object sender, EventArgs e)
     {
+        if (contadorres > 0)
+        {
+            pantalla.DeleteText(0, pantalla.Text.Length);
+            contadorres = 0;
+        }
         String display = pantalla.Text.ToString();
         pantalla.DeleteText(0, pantalla.Text.Length);
         pantalla.InsertText(display + "4");
@@ -61,6 +86,11 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBoton5Clicked(object sender, EventArgs e)
     {
+        if (contadorres > 0)
+        {
+            pantalla.DeleteText(0, pantalla.Text.Length);
+            contadorres = 0;
+        }
         String display = pantalla.Text.ToString();
         pantalla.DeleteText(0, pantalla.Text.Length);
         pantalla.InsertText(display + "5");
@@ -68,6 +98,11 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBoton6Clicked(object sender, EventArgs e)
     {
+        if (contadorres > 0)
+        {
+            pantalla.DeleteText(0, pantalla.Text.Length);
+            contadorres = 0;
+        }
         String display = pantalla.Text.ToString();
         pantalla.DeleteText(0, pantalla.Text.Length);
         pantalla.InsertText(display + "6");
@@ -75,6 +110,11 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBoton7Clicked(object sender, EventArgs e)
     {
+        if (contadorres > 0)
+        {
+            pantalla.DeleteText(0, pantalla.Text.Length);
+            contadorres = 0;
+        }
         String display = pantalla.Text.ToString();
         pantalla.DeleteText(0, pantalla.Text.Length);
         pantalla.InsertText(display + "7");
@@ -83,6 +123,11 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBoton8Clicked(object sender, EventArgs e)
     {
+        if (contadorres > 0)
+        {
+            pantalla.DeleteText(0, pantalla.Text.Length);
+            contadorres = 0;
+        }
         String display = pantalla.Text.ToString();
         pantalla.DeleteText(0, pantalla.Text.Length);
         pantalla.InsertText(display + "8");
@@ -91,6 +136,11 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBoton9Clicked(object sender, EventArgs e)
     {
+        if (contadorres > 0)
+        {
+            pantalla.DeleteText(0, pantalla.Text.Length);
+            contadorres = 0;
+        }
         String display = pantalla.Text.ToString();
         pantalla.DeleteText(0, pantalla.Text.Length);
         pantalla.InsertText(display + "9");
@@ -170,14 +220,14 @@ public partial class MainWindow : Gtk.Window
                 this.pantalla.Text = (Convert.ToString(resultado));
                 break;
         }
-
+        contadorres++;
     }
 
     protected void OnSumarClicked(object sender, EventArgs e)
-        { 
-        num1 = Convert.ToDouble(pantalla.Text);
-        pantalla.DeleteText(0, pantalla.Text.Length);
-        op = 1;
-        contador = 0;
+        {
+            num1 = Convert.ToDouble(pantalla.Text);
+            pantalla.DeleteText(0, pantalla.Text.Length);
+            op = 1;
+            contador = 0;
         }
 }
