@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">proyecto</string>
+    <string name="num_ini">Numero de participantes</string>
+    <string name="resultado"></string>
+    <string name="txt_ganador">Y el ganador es:</string>
+    <string name="boton">Resultado</string>
+    <string name="boton_anyadir">Añadir</string>
+</resources>
